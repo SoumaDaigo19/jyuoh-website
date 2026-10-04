@@ -2,6 +2,26 @@
   publish = "public"
   functions = "netlify/functions"
 
+# Simple public-facing routes
+[[redirects]]
+  from = "/ig"
+  to = "/.netlify/functions/ig"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/tt"
+  to = "/.netlify/functions/tt"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/x"
+  to = "/.netlify/functions/x"
+  status = 200
+  force = true
+
+# Backward-compatible routes
 [[redirects]]
   from = "/l/ig"
   to = "/.netlify/functions/ig"
