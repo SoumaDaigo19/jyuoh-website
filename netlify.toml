@@ -1,0 +1,33 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/l/ig"
+  to = "/.netlify/functions/track-click?source=instagram"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/l/tt"
+  to = "/.netlify/functions/track-click?source=tiktok"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/l/x"
+  to = "/.netlify/functions/track-click?source=x"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/line/webhook"
+  to = "/.netlify/functions/line-webhook"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/attribution-daily"
+  to = "/.netlify/functions/daily-summary"
+  status = 200
+  force = true
