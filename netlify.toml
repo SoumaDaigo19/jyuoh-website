@@ -4,19 +4,19 @@
 
 [[redirects]]
   from = "/l/ig"
-  to = "/.netlify/functions/track-click?source=instagram"
+  to = "/.netlify/functions/ig"
   status = 200
   force = true
 
 [[redirects]]
   from = "/l/tt"
-  to = "/.netlify/functions/track-click?source=tiktok"
+  to = "/.netlify/functions/tt"
   status = 200
   force = true
 
 [[redirects]]
   from = "/l/x"
-  to = "/.netlify/functions/track-click?source=x"
+  to = "/.netlify/functions/x"
   status = 200
   force = true
 
