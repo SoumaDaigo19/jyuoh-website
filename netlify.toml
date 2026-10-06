@@ -10,13 +10,31 @@
   force = true
 
 [[redirects]]
+  from = "/ig/"
+  to = "/.netlify/functions/ig"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/tt"
   to = "/.netlify/functions/tt"
   status = 200
   force = true
 
 [[redirects]]
+  from = "/tt/"
+  to = "/.netlify/functions/tt"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/x"
+  to = "/.netlify/functions/x"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/x/"
   to = "/.netlify/functions/x"
   status = 200
   force = true
@@ -29,13 +47,31 @@
   force = true
 
 [[redirects]]
+  from = "/l/ig/"
+  to = "/.netlify/functions/ig"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/l/tt"
   to = "/.netlify/functions/tt"
   status = 200
   force = true
 
 [[redirects]]
+  from = "/l/tt/"
+  to = "/.netlify/functions/tt"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/l/x"
+  to = "/.netlify/functions/x"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/l/x/"
   to = "/.netlify/functions/x"
   status = 200
   force = true
